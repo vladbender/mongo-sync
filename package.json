@@ -1,0 +1,18 @@
+{
+  "name": "mongo-sync",
+  "scripts": {
+    "build": "tsc",
+    "app": "node dst/app.js",
+    "sync": "node dst/sync.js",
+    "full-reindex": "node dst/sync.js --full-reindex",
+    "prettier": "prettier --write ./src"
+  },
+  "dependencies": {
+    "@faker-js/faker": "^7.6.0",
+    "@types/node": "^18.15.11",
+    "dotenv": "^16.0.3",
+    "mongodb": "^5.3.0",
+    "prettier": "^2.8.8",
+    "typescript": "^5.0.4"
+  }
+}
